@@ -1,0 +1,33 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Full stack app taking user input and using that data to match to other users with similar responses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dByler1/FriendFinder.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "fullstack",
+    "full",
+    "stack",
+    "bootcamp"
+  ],
+  "author": "Dan Byler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dByler1/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/dByler1/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

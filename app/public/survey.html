@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Finder Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+</head>
+<body>
+    <div class="container">
+        <h1>The results of this survey will go on your permanenet record</h1>
+        <hr>
+        <br>
+        <br>
+        <form>
+            <h3>Tell me, who are you?</h3>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name">
+                <small id="nameHelp" class="form-text text-muted">Required</small>
+            </div>
+            <div class="form-group">
+                <label for="image">Image</label>
+                <input type="url" class="form-control" id="image" aria-describedby="imageHelp" placeholder="Image link">
+                <small id="imageHelp" class="form-text text-muted">Required</small>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3>Question 1</h3>
+            <div class="form-group">
+                <label for="Q1">Are you the walrus?</label>
+                <select class="form-control" id="Q1">
+                    <option>1 - I am not the walrus</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - I am the walrus</option>
+                </select>
+            </div>
+            <h3>Question 2</h3>
+            <div class="form-group">
+                <label for="Q2">If you were humpty dumpty, would you sit on a wall?</label>
+                <select class="form-control" id="Q2">
+                    <option>1 - Eggs should not sit on walls</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - I sit where I want</option>
+                </select>
+            </div>
+            <h3>Question 3</h3>
+            <div class="form-group">
+                <label for="Q3">Are donkeys really like ogres?</label>
+                <select class="form-control" id="Q3">
+                    <option>1 - Donkeys are donkeys</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - A donkey is as a donkey does</option>
+                </select>
+            </div>
+            <h3>Question 4</h3>
+            <div class="form-group">
+                <label for="Q4">Will JavaScript rule the world?</label>
+                <select class="form-control" id="Q4">
+                    <option>1 - JavaScript will never leave the web</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - Nobody rules anything, man</option>
+                </select>
+            </div>
+            <h3>Question 5</h3>
+            <div class="form-group">
+                <label for="Q5">How do you feel about lemon bars?</label>
+                <select class="form-control" id="Q5">
+                    <option>1 - Pastry for peasents</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - Best all purpose pastry</option>
+                </select>
+            </div>
+            <h3>Question 6</h3>
+            <div class="form-group">
+                <label for="Q6">Why did the chicken cross the road?</label>
+                <select class="form-control" id="Q6">
+                    <option>1 - How do we know the chicken did actually cross the road?</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - Do roads even have sides, man?</option>
+                </select>
+            </div>
+            <h3>Question 7</h3>
+            <div class="form-group">
+                <label for="Q7">What is your opinion about showers?</label>
+                <select class="form-control" id="Q7">
+                    <option>1 - 5 minutes is too long</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - I need a garbage disposal in my shower</option>
+                </select>
+            </div>
+            <h3>Question 8</h3>
+            <div class="form-group">
+                <label for="Q8">Are you worried about the number of dependencies your app has at the most basic level?</label>
+                <select class="form-control" id="Q8">
+                    <option>1 - The web is built on sand</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - Short hair, don't care</option>
+                </select>
+            </div>
+            <h3>Question 9</h3>
+            <div class="form-group">
+                <label for="Q9">How many bacons?</label>
+                <select class="form-control" id="Q9">
+                    <option>1 - Eww</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - I maraude for bacon</option>
+                </select>
+            </div>
+            <h3>Question 10</h3>
+            <div class="form-group">
+                <label for="Q10">Why?</label>
+                <select class="form-control" id="Q10">
+                    <option>1 - The game</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 - Bacon</option>
+                </select>
+            </div>
+            <br>
+        
+            <button id='survey-submit' class="btn btn-primary">Give me all of your data</button>
+            <br>
+        </form>
+    </div>
+   
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
