@@ -11,9 +11,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>The results of this survey will go on your permanenet record</h1>
+        <h1>Friend Matching Service</h1>
         <hr>
-        <br>
         <br>
         <form>
             <h3>Tell me, who are you?</h3>
@@ -127,7 +126,7 @@
                     <option>3</option>
                     <option>4</option>
                     <option>5 - I maraude for bacon</option>
-                </select>
+                </select> 
             </div>
             <h3>Question 10</h3>
             <div class="form-group">
@@ -146,6 +145,28 @@
             <br>
         </form>
     </div>
+
+      <!-- Modal -->
+  <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+    
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+              <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <h2 id="match-name"></h2>
+              <img id="match-img" style="max-width: 200px;" src="https://thumbs.dreamstime.com/z/cow-funny-green-meadow-looking-to-camera-alps-background-45723755.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
